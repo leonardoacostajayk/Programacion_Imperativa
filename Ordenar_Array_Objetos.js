@@ -30,10 +30,14 @@ function bublesortObj(array,orden,propiedad)
         {
           {
 
-            if(array[i][propiedad]<
-              let aux = array[i];let aux = array[i];
-              array[i] = array[i+1];
-              array[i+1] = aux;
+            if(array[i][propiedad]< array[i+1][propiedad])
+            {
+  
+                let aux = array[i];
+                array[i] = array[i+1];
+                array[i+1] = aux;
+            
+            }
           
           }
         }
@@ -86,5 +90,5 @@ let edadasc=bublesortObj(
         edadTitular: 25,
         tipoCuenta: "corriente"
       }
-    ],true,'edadTitular');
+    ],false,'edadTitular');
 console.log(edadasc);
