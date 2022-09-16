@@ -80,6 +80,6 @@ function likesFotografia(array,propiedad)
 {
     let arregloOrdenadoDesc= ordenararrayDesc(array,'clikes');
 
-   return arregloOrdenadoDesc[0];
+   return 'usuario con mas likes:', arregloOrdenadoDesc[0] + 'Segundo: ',arregloOrdenadoDesc[1];
 }
 console.log(likesFotografia(arrayuserfoto,'clikes'));
