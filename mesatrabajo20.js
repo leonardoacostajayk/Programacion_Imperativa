@@ -78,8 +78,10 @@ function ordenararrayDesc(array,propiedad){
 }
 function likesFotografia(array,propiedad) 
 {
-    let arregloOrdenadoDesc= ordenararrayDesc(array,'clikes');
+let arregloOrdenadoDesc= ordenararrayDesc(array,'clikes');
 
-   return 'usuario con mas likes:', arregloOrdenadoDesc[0] + 'Segundo: ',arregloOrdenadoDesc[1];
+  return arregloOrdenadoDesc;
 }
-console.log(likesFotografia(arrayuserfoto,'clikes'));
+let likes = likesFotografia(arrayuserfoto,'clikes');
+console.log('Usuario con mas likes',likes[0],
+'segundo: ',likes[1],'Tercero: ',likes[2],'Menos Likes : ',likes[likes.length-1]);
