@@ -42,7 +42,6 @@ let arrayuserfoto=[
 
 ]
 
-
 // function ordenarArrayAsc(array,propiedad){
 
 //     for(let i=0 ; i<array.length ; i++){
