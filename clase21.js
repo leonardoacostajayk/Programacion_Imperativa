@@ -187,12 +187,16 @@ function arrayDeAprobados(arreglo){
 
 //console.log(arrayDeAprobados(estudiantes));
 
+// 4. Agregar un atributo id a cada objeto que inicie en 1 y sea secuencial
 
-let perro = {
-    nombre : "firu"
+function nuevoatributo(arreglo) 
+{
+    for (let i = 0; i < arreglo.length; i++) 
+    {
+        
+        arreglo[i].id=i+1;
+        
+    }
+    return arreglo;
 }
-
-
-
-
-console.log(perro);
+console.log(nuevoatributo(estudiantes));
