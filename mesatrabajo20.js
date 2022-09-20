@@ -42,22 +42,22 @@ let arrayuserfoto=[
 
 ]
 
-// function ordenarArrayAsc(array,propiedad){
+ function ordenarArrayAsc(array,propiedad){
 
-//     for(let i=0 ; i<array.length ; i++){
+   for(let i=0 ; i<array.length ; i++){
 
-//         for(let j=0 ; j<array.length - 1 ; j++){
+      for(let j=0 ; j<array.length - 1 ; j++){
     
-//             if(array[j][propiedad] > array[j+1][propiedad]){
+           if(array[j][propiedad] > array[j+1][propiedad]){
     
-//                 let aux = array[j];
-//                 array[j] = array[j+1];
-//                 array[j+1] = aux;
-//             }
-//         }
-//     }
-//     return array;
-// }
+               let aux = array[j];
+               array[j] = array[j+1];
+                array[j+1] = aux;
+           }
+       }
+     }
+    return array;
+ }
 
 // Funcion que ordena un array de objetos  de forma Descendente
 function ordenararrayDesc(array,propiedad){
