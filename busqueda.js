@@ -42,6 +42,7 @@ function busquedaBinaria(arreglo, num){
         }
 
     }
+    return 'No se ha encontrado';
 }
 
 //console.log(Math.round(2.8));
